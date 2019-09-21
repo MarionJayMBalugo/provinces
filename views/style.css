@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+h1 {
+  color: red;
+}
+img{
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+
+}
+ul {
+  list-style-type: none;
+}
+#im1,#im2{
+	width: 45%;
+}
+#im3{
+	width: 92%;
+}
+  

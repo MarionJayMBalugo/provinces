@@ -1,0 +1,11 @@
+{
+    "name":"Cavite",
+    "img_1":"/public/images/cavite.jpg",
+    "img_2":"/public/images/cavite2.jpg",
+    "img_3":"/public/images/cavite3.jpg",
+    "group":"Mindanao",
+    "population":"550000",
+    "delicacies":["Talong","Burger","Tilapia","Suman"],
+    "rate":"0",
+    "hist":"Image result for cavite history Its early settlers, who were Tagalogs, called it Tangway, meaning peninsula. The name Caviteevolved from the word Kawit or Cauit meaning hook as people from other places refer to it, referring to the hook-shaped land along the coast of Bacoor Bay."
+}
