@@ -1,8 +1,8 @@
 {
     "name":"Marikina",
-    "img_1":"/public/images/mar.jpg",
-    "img_2":"/public/images/mar1.jpg",
-    "img_3":"/public/images/mar2.jpg",
+    "img1":"/public/images/mar.jpg",
+    "img2":"/public/images/mar1.jpg",
+    "img3":"/public/images/mar2.jpg",
     "group":"luzon",
     "population":"500000",
     "delicacies":["Lechon","Ice Cream","Tahong","Buwad"],

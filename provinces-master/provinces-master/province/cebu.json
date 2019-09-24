@@ -1,8 +1,8 @@
 {
     "name":"Cebu",
-    "img_1":"/public/images/cebu.jpg",
-    "img_2":"/public/images/cebu1.jpg",
-    "img_3":"/public/images/cebu2.jpg",
+    "img1":"/public/images/cebu.jpg",
+    "img2":"/public/images/cebu1.jpg",
+    "img3":"/public/images/cebu2.jpg",
     "group":"Mindanao",
     "population":"550000",
     "delicacies":["Talong","Burger","Tilapia","Suman"],

@@ -1,8 +1,8 @@
 {
     "name":"Cavite",
-    "img_1":"/public/images/cavite.jpg",
-    "img_2":"/public/images/cavite2.jpg",
-    "img_3":"/public/images/cavite3.jpg",
+    "img1":"/public/images/cavite.jpg",
+    "img2":"/public/images/cavite2.jpg",
+    "img3":"/public/images/cavite3.jpg",
     "group":"Mindanao",
     "population":"550000",
     "delicacies":["Talong","Burger","Tilapia","Suman"],

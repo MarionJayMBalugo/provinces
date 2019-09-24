@@ -12,6 +12,9 @@ app.use("/public", express.static(path.join(__dirname, 'public')));
 app.use(function(req, res, next) {
     console.log("counted")
     fs.readFile('counter.txt', function(err, data) {
+        if(err){
+            res.sendStatus(404);
+        }
         dic = JSON.parse(data);
         console.log(dic);
         var cnt = dic + 1;
@@ -32,7 +35,7 @@ app.get('/province/:provinceName', (req, res) => {
 
         var dats = JSON.parse(data);
 
-        res.render('index', { h: req.params.provinceName, reg: dats.group, img1: dats.img_1, img2: dats.img_2, img3: dats.img_3, population: dats.population, x: dats.delicacies, his: dats.hist, aver: dats.rate, reque: 1 });
+        res.render('index', { dats });
     });
 
 });

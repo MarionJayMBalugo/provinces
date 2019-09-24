@@ -8,22 +8,22 @@ html(lang='en')
     script
       include submit.js
   body
-    h1='Welcome to '+ h
-    h2=reg +' Group of Islands'
+    h1='Welcome to '+ dats.name
+    h2=dats.group +' Group of Islands'
     div
-      img#im1(src=img1)
-      img#im2(src=img2)
-      img#im3(src=img3)
-    p=population +" number of people living in "+h
-    -var list = x
-    h4=h +"'s most known delicacies :"
+      img(src= dats.imag1 )
+      img(src= dats.imag2 )
+      img(src= dats.imag3 )
+    p=dats.population +" number of people living in "+dats.name
+    
+    h4=dats.name+"'s most known delicacies :"
     ul      
-      each val in list
+      each val in dats.delicacies
         li= val
     div
       h2 history
-      p= his
-      p='average rating of '+h +' is '+ aver
+      p= dats.hist
+      p='average rating of '+dats.name +' is '+ dats.rate
     div
       h3 rate us
       button#1 1
